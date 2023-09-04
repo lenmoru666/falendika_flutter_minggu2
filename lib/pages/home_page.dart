@@ -10,7 +10,12 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: true,
-        title: const Text("My App"),
+        title: const Text(
+          "MyApp",
+          style: TextStyle(
+            color: Colors.white, // Set the text color to white
+          ),
+        ),
         backgroundColor: Colors.red,
       ),
       body: DefaultTabController(
@@ -23,10 +28,10 @@ class HomePage extends StatelessWidget {
               child: TabBar(
                 tabs: [
                   Tab(
-                    child: Text("Berita Tebaru"),
+                    child: Text("BERITA TERBARU"),
                   ),
                   Tab(
-                    child: Text("Pertandingan Hari ini"),
+                    child: Text("PERTANDINGAN HARI INI"),
                   ),
                 ],
               ),

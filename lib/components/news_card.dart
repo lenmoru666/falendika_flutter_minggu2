@@ -17,7 +17,7 @@ class NewsCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.network(
-                'https://picsum.photos/id/237/200/300',
+                'https://gamebrott.com/wp-content/uploads/2023/08/game-trending-saat-ini-4-september-750x375.jpg',
                 width: 100,
                 height: 100,
               ),
@@ -34,8 +34,7 @@ class NewsCard extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(
-                "Barcelona, ${DateFormat('dd MM yyyy').format(DateTime.now())}"),
+            child: Text("${DateFormat('dd MM yyyy').format(DateTime.now())}"),
           )
         ],
       ),

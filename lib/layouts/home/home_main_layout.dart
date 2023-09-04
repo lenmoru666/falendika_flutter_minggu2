@@ -19,7 +19,7 @@ class HomeMainLayout extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'Messi dan Ronaldo',
+            'Trailer Wuthering Waves',
             style: GoogleFonts.plusJakartaSans(fontSize: 21),
           ),
           const SizedBox(height: 8),
@@ -27,14 +27,14 @@ class HomeMainLayout extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(8),
             decoration: const BoxDecoration(color: Colors.purple),
-            child: const Text("Transfer"),
+            child: const Text("Rilis 2024"),
           ),
           const SizedBox(height: 8),
           Column(
             children: List.generate(
-                10,
+                4,
                 (index) => const NewsCard(
-                      title: "Testing",
+                      title: "10 Game Trending Saat Ini yang Populer di Steam",
                     )),
           ),
         ],
